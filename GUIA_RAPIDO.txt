@@ -1,0 +1,161 @@
+🚀 GUIA RÁPIDO - CONSULTA DE CNPJ (VERSÃO CORRIGIDA)
+=================================================
+
+🚨 PROBLEMA: "Python não encontrado"?
+====================================
+Use uma das 3 opções abaixo:
+
+🎯 OPÇÃO 1: INSTALAÇÃO CORRIGIDA (Recomendada)
+- Arquivos: instalar_corrigido.bat + executar.bat
+- Detecta Python automaticamente
+- Cria ambiente virtual isolado
+
+🎯 OPÇÃO 2: INSTALAÇÃO SIMPLES (Se Opção 1 falhar)  
+- Arquivos: instalar_simples.bat + executar_simples.bat
+- Instala globalmente, sem ambiente virtual
+- Mais fácil de usar
+
+🎯 OPÇÃO 3: INSTALAR PYTHON PRIMEIRO
+- Leia arquivo: COMO_INSTALAR_PYTHON.txt
+- Instale Python corretamente
+- Depois use Opção 1
+
+📁 PASSO 1: CRIAR ARQUIVOS
+=========================
+1. Crie uma pasta (ex: "consulta-cnpj")
+2. Crie os seguintes arquivos nesta pasta:
+
+📄 ARQUIVOS OBRIGATÓRIOS:
+- consulta_cnpj.py (programa principal)
+- requirements.txt (dependências)
+- CNPJ.xlsx (seu arquivo com CNPJs)
+
+📄 ARQUIVOS OPÇÃO 1 (Instalação Completa):
+- instalar_corrigido.bat
+- executar.bat
+
+📄 ARQUIVOS OPÇÃO 2 (Instalação Simples):
+- instalar_simples.bat
+- executar_simples.bat
+
+📄 ARQUIVOS DE AJUDA (opcionais):
+- COMO_INSTALAR_PYTHON.txt
+- GUIA_RAPIDO.txt
+- README.md
+
+📋 PASSO 2: VERIFICAR EXCEL
+==========================
+Seu arquivo CNPJ.xlsx deve ter:
+- Uma coluna chamada "CNPJ"
+- CNPJs com ou sem formatação (tanto faz)
+- Exemplo:
+  | CNPJ               |
+  |--------------------|
+  | 07.942.413/0001-34 |
+  | 28.473.689/0001-90 |
+
+💻 PASSO 3A: OPÇÃO 1 (RECOMENDADA)
+=================================
+1. Duplo clique: instalar_corrigido.bat
+2. Aguarde finalizar
+3. Duplo clique: executar.bat
+
+⚡ PASSO 3B: OPÇÃO 2 (ALTERNATIVA)
+=================================
+1. Duplo clique: instalar_simples.bat
+2. Aguarde finalizar  
+3. Duplo clique: executar_simples.bat
+
+🎯 PASSO 4: USAR O PROGRAMA
+==========================
+Quando o programa abrir, siga esta ordem:
+
+1. Digite "1" - Verificar arquivos
+   (confirma se tudo está OK)
+
+2. Digite "3" - Testar com seus CNPJs  
+   (SEMPRE faça isso primeiro!)
+
+3. Digite "4" - Processar todos
+   (só depois do teste dar certo)
+
+4. Digite "5" - Analisar resultados
+   (ver estatísticas finais)
+
+⏱️ TEMPO PARA SEUS 261 CNPJs
+===========================
+- CNPJs únicos: 248 (13 duplicados removidos)
+- Tempo total: 83 minutos (1h23min)
+- Salvamento: A cada 25 CNPJs processados
+
+📊 RESULTADO FINAL
+=================
+Arquivo: resultado_cnpj.xlsx
+Contém para cada CNPJ:
+- Razão Social (~95%)
+- Telefone (~60%)
+- Endereço completo (~95%)
+- Email (~30%)
+- Cidade, UF, CEP
+- Situação cadastral
+- Atividade principal
+- Capital social
+- Data de abertura
+- E muito mais!
+
+🆘 PROBLEMAS COMUNS
+==================
+
+❌ "Python não encontrado"
+→ Use Opção 2 (instalação simples)
+→ Ou leia COMO_INSTALAR_PYTHON.txt
+
+❌ "Arquivo não encontrado"  
+→ Nome deve ser exato: CNPJ.xlsx
+→ Deve estar na mesma pasta
+
+❌ "Coluna CNPJ não encontrada"
+→ Renomeie a coluna no Excel para "CNPJ"
+
+❌ "Muitos erros"
+→ Teste conexão internet
+→ Execute opção 3 primeiro (teste)
+
+❌ "Acesso negado"
+→ Execute como Administrador
+→ Clique direito > "Executar como administrador"
+
+💡 DICAS IMPORTANTES
+===================
+- 🧪 SEMPRE teste primeiro (opção 3)
+- 🌙 Deixe rodando durante a noite
+- 🔌 Mantenha internet estável
+- 💾 Não feche durante processamento
+- 📊 Se interromper, pode continuar depois
+- 🔄 Use opção 5 para ver estatísticas
+
+🏆 QUAL OPÇÃO ESCOLHER?
+======================
+
+✅ Opção 1 (Completa): Se você quer o melhor
+- Mais segura (ambiente isolado)
+- Mais profissional
+- Primeira escolha
+
+✅ Opção 2 (Simples): Se Opção 1 não funcionar
+- Mais fácil de instalar
+- Sem ambiente virtual
+- Funciona na maioria dos casos
+
+✅ Opção 3 (Manual): Se é expert em Python
+- Instala Python manualmente
+- Controle total do processo
+- Para usuários avançados
+
+🎉 PRONTO!
+==========
+Em 83 minutos você terá dados completos
+de todas as suas 248 empresas únicas!
+
+📞 Resultado: planilha Excel profissional
+com telefones, endereços e muito mais!

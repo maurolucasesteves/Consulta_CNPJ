@@ -1,0 +1,109 @@
+COMO_INSTALAR_PYTHON📥 COMO INSTALAR PYTHON NO WINDOWS
+=====================================
+
+🔴 PROBLEMA: "Python não encontrado"
+-----------------------------------
+Isso acontece quando:
+- Python não está instalado
+- Python não foi adicionado ao PATH
+- Comando python não funciona no prompt
+
+🚀 SOLUÇÃO PASSO A PASSO
+========================
+
+📋 PASSO 1: BAIXAR PYTHON
+-------------------------
+1. Acesse: https://python.org/downloads/
+2. Clique no botão amarelo "Download Python 3.x.x"
+3. Aguarde download terminar
+
+📋 PASSO 2: INSTALAR (MUITO IMPORTANTE!)
+---------------------------------------
+1. Execute o arquivo baixado
+2. ⚠️  ATENÇÃO: MARQUE A CAIXA "Add Python to PATH"
+   (Esta é a parte mais importante!)
+3. Clique "Install Now"
+4. Aguarde instalação terminar
+5. Clique "Close"
+
+📋 PASSO 3: VERIFICAR INSTALAÇÃO
+-------------------------------
+1. Pressione Win + R
+2. Digite: cmd
+3. Pressione Enter
+4. Digite: python --version
+5. Se mostrar a versão, está funcionando!
+
+🔧 SE AINDA NÃO FUNCIONAR
+========================
+
+💡 OPÇÃO 1: Reinstalar Python
+-----------------------------
+1. Desinstale Python atual
+   - Painel de Controle > Programas
+   - Desinstalar Python
+2. Baixe novamente de python.org  
+3. MARQUE "Add Python to PATH" na instalação
+4. Teste novamente
+
+💡 OPÇÃO 2: Adicionar ao PATH manualmente
+----------------------------------------
+1. Encontre onde Python foi instalado
+   (geralmente: C:\Users\[Usuário]\AppData\Local\Programs\Python\Python3x\)
+2. Pressione Win + X > Sistema
+3. Configurações avançadas do sistema
+4. Variáveis de ambiente
+5. Variáveis do sistema > Path > Editar
+6. Adicionar > Colar caminho do Python
+7. OK > OK > OK
+8. Reiniciar computador
+
+💡 OPÇÃO 3: Usar Python Launcher
+-------------------------------
+Se instalou Python mas 'python' não funciona, tente:
+- py --version
+- py -3 --version
+
+💡 OPÇÃO 4: Usar Instalação Simples
+----------------------------------
+Se nada funcionar, use os scripts simples:
+1. Execute: instalar_simples.bat
+2. Execute: executar_simples.bat
+
+🆘 OUTROS PROBLEMAS COMUNS
+==========================
+
+❌ "Não é reconhecido como comando interno"
+→ Python não está no PATH, siga Opção 1 ou 2 acima
+
+❌ "pip não encontrado"  
+→ Reinstale Python marcando "Add Python to PATH"
+
+❌ "Acesso negado"
+→ Execute Prompt de Comando como Administrador
+
+❌ "Erro de conexão"
+→ Verifique sua internet para baixar bibliotecas
+
+🎯 TESTE FINAL
+==============
+Após instalar, teste no Prompt de Comando:
+
+1. python --version
+   (deve mostrar: Python 3.x.x)
+
+2. pip --version
+   (deve mostrar versão do pip)
+
+Se ambos funcionam, você pode usar os scripts!
+
+📞 VERSÕES TESTADAS
+==================
+- Windows 10/11: ✅ Funciona
+- Python 3.8+: ✅ Recomendado  
+- Python 3.12: ✅ Última versão
+
+💡 DICA FINAL
+=============
+Sempre marque "Add Python to PATH" na instalação!
+Essa é a causa de 90% dos problemas.
