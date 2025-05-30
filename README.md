@@ -1,4 +1,4 @@
-# 🏢 Consulta de CNPJ em Massa - VERSÃO CORRIGIDA
+# 🏢 Consulta de CNPJ em Massa 
 
 Sistema automatizado para consultar dados de empresas (CNPJ) através de APIs gratuitas, incluindo telefone, endereço e outras informações cadastrais.
 
